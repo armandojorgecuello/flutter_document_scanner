@@ -53,7 +53,7 @@ class ScannedImage {
 
   /// Get croppedImage (scanned document) as File.
   File getScannedDocumentAsFile() => File.fromUri(
-        Uri.parse(croppedImage!),
+        Uri.parse(initialImage!),
       );
 }
 
